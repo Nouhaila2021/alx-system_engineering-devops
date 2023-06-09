@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "Absolute path of the current working directory: $(realpath "$(pwd)")"
+cwd=$(pwd)
+
+echo "Absolute path of the current working directory: $(realpath "$cwd")
