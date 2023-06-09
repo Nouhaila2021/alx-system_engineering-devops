@@ -1,3 +1,2 @@
 #!/bin/bash
-
 files=$(ls -1); printf '%s\n' "${files[@]:0:$((${#files[@]} / 2))}" "${files[@]:$((${#files[@]} / 2))}"
